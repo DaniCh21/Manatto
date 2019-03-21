@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xml:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/productNameLabelTv"
+        android:text="Название продукта"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/amountLabelTv"
+        android:text="1234.57 RUB"
+        android:textAllCaps="true"
+        />
+
+</ConstraintLayout>
